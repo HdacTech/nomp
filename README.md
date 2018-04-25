@@ -86,7 +86,7 @@ Move To redis-stable folder
 
 ```
 nomp
- ┖ coins
+┖ coins
        - many coin.json 
 	.
 	.
@@ -289,7 +289,7 @@ nomp
 
 ###### h-dac.json
 
-pool_configs폴더에 정의된 HDAC Pool Configruation은 다음과 같다.
+pool_configs폴더에 정의된 HDAC Pool Configuration은 다음과 같다.
 
 ```
 {
@@ -400,7 +400,7 @@ pool_configs폴더에 정의된 HDAC Pool Configruation은 다음과 같다.
 ```
 
 ##### 4. Server Start
-Into nomp foler
+Into nomp folder
 ```
 Node init.js
 ```
