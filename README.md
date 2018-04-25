@@ -86,11 +86,11 @@ Move To redis-stable folder
 
 ```
 nomp
-  ¦Å coins
+ ¦Å coins
        - many coin.json 
 	.
 	.
-	¦Å libs
+¦Å libs
 ¦Å node_modules
     ¦Å other libs
     ¦Å multi-hashing
