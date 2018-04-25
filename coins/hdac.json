@@ -1,0 +1,11 @@
+{
+    "name": "HDAC",
+    "symbol": "DAC",
+    "algorithm": "lyra2rev2",
+    /**
+     * @Hdac
+     * Add the 'reward' key value for ePoW, a unique consensus algorithm of Hdac.
+     * This annotation should be removed when reflecting on the server due to the JSON formatting convention.
+     */
+    "reward": "ePoW"
+}

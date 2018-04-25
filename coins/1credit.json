@@ -1,0 +1,6 @@
+{
+    "name": "1CREDIT",
+    "symbol": "1CR",
+    "algorithm": "scrypt",
+	"peerMagic": "fdc6bfe1"
+}
