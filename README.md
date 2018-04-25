@@ -77,7 +77,7 @@ Move To redis-stable folder
 # NOMP Install
 
 ```
->git clone https://github.com/foxer666/node-open-mining-portal.git nomp
+>git clone https://github.com/Hdactech/nomp.git nomp
 >cd nomp
 >npm update
 ```
