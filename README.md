@@ -35,7 +35,7 @@ ubuntu 16.04.* 최신 버전을 기준으로 한다.
 
 ## 2. NVM Setup
 
-nvm을 이용해서 nodejs버전을 설치하고 관리한다.nvm을 통해서 설치하지 않은 nodeJs는 nvm이 관리를 할 수 없다.
+nvm을 이용해서 nodejs버전을 설치하고 관리한다. nvm을 통해서 설치하지 않은 nodeJs는 nvm이 관리를 할 수 없다.    
 따라서 기존의 nvm을 통해서 설치하지 않은 nodeJs가 이미 설치되어 있다면 삭제하고 진행한다.
 
 
