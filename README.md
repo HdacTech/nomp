@@ -17,7 +17,6 @@ ubuntu 16.04.* 최신 버전을 기준으로 한다.
 >sudo apt-get install git
 
 >sudo apt-get install build-essential autoconf libtool libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev mysql-server
-
 ```
 
 * ubuntu 14.04.* 버전
@@ -30,7 +29,6 @@ ubuntu 16.04.* 최신 버전을 기준으로 한다.
 >sudo apt-get update
 
 >sudo apt-get install libstdc++6
-
 ```
 
 ## 2. NVM Setup
@@ -47,7 +45,6 @@ nvm을 이용해서 nodejs버전을 설치하고 관리한다. nvm을 통해서 설치하지 않은 nodeJs
 >nvm install 8.9.4
 
 >nvm use 8.9.4
-
 ```
 
 ## 3. Redis Setup
@@ -82,7 +79,7 @@ Move To redis-stable folder
 >npm update
 ```
 
-## 1. NOPOM Main Constructor
+## 1. NOMP Main Constructor
 
 ```
 nomp
@@ -396,7 +393,6 @@ pool_configs폴더에 정의된 HDAC Pool Configuration은 다음과 같다.
     },
 
 }
-
 ```
 
 ##### 4. Server Start
@@ -404,3 +400,7 @@ Into nomp folder
 ```
 Node init.js
 ```
+
+## Abount NOMP
+
+NOMP에 대한 좀 더 자세한 내용은 다음 [원작자](https://github.com/zone117x/node-open-mining-portal)의 깃헙을 참조한다.
