@@ -401,6 +401,6 @@ Into nomp folder
 Node init.js
 ```
 
-## Abount NOMP
+## More NOMP
 
 NOMP에 대한 좀 더 자세한 내용은 다음 [원작자](https://github.com/zone117x/node-open-mining-portal)의 깃헙을 참조한다.
