@@ -1,13 +1,13 @@
 # Hdac Node Mining Portal
 
-Hdac Node Mining PortalÀº ¿ÀÇÂ ¼Ò½º¸¦ »ç¿ëÇÑ´Ù.
+Hdac Node Mining Portal uses open source.
 
 See [Open Source NOMP](https://github.com/foxer666/node-open-mining-portal)
 
 
 ## 1. OS Setup
 
-ubuntu 16.04.* ÃÖ½Å ¹öÀüÀ» ±âÁØÀ¸·Î ÇÑ´Ù.
+ubuntu 16.04. * Based on the latest version.
 
 ```
 >sudo apt-get update
@@ -19,9 +19,9 @@ ubuntu 16.04.* ÃÖ½Å ¹öÀüÀ» ±âÁØÀ¸·Î ÇÑ´Ù.
 >sudo apt-get install build-essential autoconf libtool libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev mysql-server
 ```
 
-* ubuntu 14.04.* ¹öÀü
+* ubuntu 14.04.* Version
 
-Ãß°¡ÀûÀ¸·Î ¶óÀÌºê·¯¸®¸¦ ¼øÂ÷ÀûÀ¸·Î ¼³Ä¡ÇÏ¿©¾ß ÇÑ´Ù.
+In addition, library should be installed in order.
 
 ```
 >sudo add-apt-repository ppa:ubuntu-toolchain-r/test
@@ -33,8 +33,8 @@ ubuntu 16.04.* ÃÖ½Å ¹öÀüÀ» ±âÁØÀ¸·Î ÇÑ´Ù.
 
 ## 2. NVM Setup
 
-nvmÀ» ÀÌ¿ëÇØ¼­ nodejs¹öÀüÀ» ¼³Ä¡ÇÏ°í °ü¸®ÇÑ´Ù. nvmÀ» ÅëÇØ¼­ ¼³Ä¡ÇÏÁö ¾ÊÀº nodeJs´Â nvmÀÌ °ü¸®¸¦ ÇÒ ¼ö ¾ø´Ù.    
-µû¶ó¼­ ±âÁ¸ÀÇ nvmÀ» ÅëÇØ¼­ ¼³Ä¡ÇÏÁö ¾ÊÀº nodeJs°¡ ÀÌ¹Ì ¼³Ä¡µÇ¾î ÀÖ´Ù¸é »èÁ¦ÇÏ°í ÁøÇàÇÑ´Ù.
+Install and manage the version of nodejs by using nvm. nvm can not manage nodeJs not installed via nvm.    
+Therefore, if nodeJs not installed through the existing nvm are already installed, delete and reinstall them.    
 
 
 ### NVM Install
@@ -83,24 +83,24 @@ Move To redis-stable folder
 
 ```
 nomp
-¦Å coins
+â”– coins
        - many coin.json 
 	.
 	.
-¦Å libs
-¦Å node_modules
-    ¦Å other libs
-    ¦Å multi-hashing
-    ¦Å stratum-pool
-       ¦Å lib
+â”– libs
+â”– node_modules
+    â”– other libs
+    â”– multi-hashing
+    â”– stratum-pool
+       â”– lib
           - many js
 		.
 		.
-¦Å pool_configs
+â”– pool_configs
    - litecoin_example.json
    - vertcoin_example.json
-¦Å scripts
-¦Å website
+â”– scripts
+â”– website
 - config.json
 - init.js 
 ```
@@ -263,7 +263,7 @@ nomp
 
 ###### config.json
 
-ÄÚÀÎ Æú´õ¿¡ ¼ö¸¹Àº ÄÚÀÎµéÀÇ ¼³Á¤ ÆÄÀÏµéÀÌ Á¸ÀçÇÑ´Ù. HDACÀÇ ÄÚÀÎ ¼³Á¤ Á¤º¸´Â ´ÙÀ½°ú °°´Ù.
+There are a number of coin configuration files in the coin folder. The coin setting information of the HDAC is as follows.
 
 ```
 {
@@ -278,15 +278,14 @@ nomp
     "reward": "ePoW"
 }
 ```
-
-´Ù¸¥ ÄÚÀÎµéÀÇ ¾Ë°í¸®Áò ¼³Á¤ Á¤º¸¸¦ ¼¼ÆÃÇÏ´Â ¹æ¹ıÀº [¿©±â](https://github.com/zone117x/node-stratum-pool#module-usage)¸¦ ÂüÁ¶ÇÑ´Ù.
+Check [here](https://github.com/zone117x/node-stratum-pool#module-usage) for how to set the algorithm setting information of the other coins.
 
 
 ##### 3. Pool Configuration
 
 ###### h-dac.json
 
-pool_configsÆú´õ¿¡ Á¤ÀÇµÈ HDAC Pool ConfigurationÀº ´ÙÀ½°ú °°´Ù.
+The HDAC Pool Configuration defined in the pool_configs folder is as follows.
 
 ```
 {
@@ -403,4 +402,4 @@ Node init.js
 
 ## More NOMP
 
-NOMP¿¡ ´ëÇÑ Á» ´õ ÀÚ¼¼ÇÑ ³»¿ëÀº ´ÙÀ½ [¿øÀÛÀÚ](https://github.com/zone117x/node-open-mining-portal)ÀÇ ±êÇéÀ» ÂüÁ¶ÇÑ´Ù.
+For more information about NOMP, check the following [author's notes](https://github.com/zone117x/node-open-mining-portal) on gihub.
