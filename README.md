@@ -110,7 +110,7 @@ nomp
 ##### 1. Portal Configuration
 
 ###### config.json
-```
+```javascript
 {
     /* Specifies the level of log output verbosity. Anything more severe than the level specified
        will also be logged. */
@@ -265,7 +265,7 @@ nomp
 
 There are a number of coin configuration files in the coin folder. The coin setting information of the HDAC is as follows.
 
-```
+```javascript
 {
     "name": "HDAC",
     "symbol": "DAC",
@@ -287,7 +287,7 @@ Check [here](https://github.com/zone117x/node-stratum-pool#module-usage) for how
 
 The HDAC Pool Configuration defined in the pool_configs folder is as follows.
 
-```
+```javascript
 {
     "enabled": true, //Set this to false and a pool will not be created from this config file
     "coin": "hdac.json", //Reference to coin config file in 'coins' directory
