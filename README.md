@@ -400,6 +400,11 @@ Into nomp folder
 Node init.js
 ```
 
+## About ePoW And Stratum Pool
+
+See [Here](https://github.com/Hdactech/stratum-pool)
+
+
 ## More NOMP
 
 For more information about NOMP, check the following [author's notes](https://github.com/zone117x/node-open-mining-portal) on gihub.
