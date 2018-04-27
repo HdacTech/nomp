@@ -1,6 +1,6 @@
 # Hdac Node Mining Portal
 
-Hdac Node Mining Portal uses open source.
+**`Hdac Node Mining`** Portal uses open source.
 
 See [Open Source NOMP](https://github.com/foxer666/node-open-mining-portal)
 
@@ -263,7 +263,7 @@ nomp
 
 ###### config.json
 
-There are a number of coin configuration files in the coin folder. The coin setting information of the HDAC is as follows.
+There are a number of coin configuration files in the coin folder. The coin setting information of the **`HDAC`** is as follows.
 
 ```javascript
 {
@@ -285,7 +285,7 @@ Check [here](https://github.com/zone117x/node-stratum-pool#module-usage) for how
 
 ###### h-dac.json
 
-The HDAC Pool Configuration defined in the pool_configs folder is as follows.
+The **`HDAC`** Pool Configuration defined in the pool_configs folder is as follows.
 
 ```javascript
 {
