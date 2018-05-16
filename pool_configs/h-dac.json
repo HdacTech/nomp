@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "coin": "hdac.json",
+
+    "address": "hdac main address",
+
+    "rewardRecipients": {
+        "hdac reward address": 1
+    },
+
+    "paymentProcessing": {
+        "enabled": false,
+        "paymentInterval": 20,
+        "minimumPayment": 70,
+        "daemon": {
+            "host": "set your hdac ip",
+            "port": "set your hdac port",
+            "user": "set your hdac user",
+            "password": "set your hdac password"
+        }
+    },
+
+    "ports": {
+        "3008": {
+            "diff": 0.00002
+        },
+        "3333": {
+            "diff": 0.00002,
+            "varDiff": {
+                "minDiff": 0.00002,
+                "maxDiff": 256,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3256": {
+            "diff": 1
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "set your hdac ip",
+            "port": "set your hdac port",
+            "user": "set your hdac user",
+            "password": "set your hdac password"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "set your mysql host",
+        "port": 3306,
+        "user": "set your mysql user id",
+        "password": "set your mysql password",
+        "database": "mpos",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "ltc",
+        "authMechanism": "DEFAULT"
+    }
+
+}

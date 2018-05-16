@@ -1,0 +1,54 @@
+{
+    "name": "node-open-mining-portal",
+    "version": "0.1.0",
+    "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/Hdactech/nomp",
+    "bugs": {
+        "url": "https://github.com/Hdactech/nomp/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven",
+        "Kris Klosterman"
+    ],
+    "main": "init.js",
+    "bin": {
+        "block-notify": "./scripts/blockNotify.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hdactech/nomp.git"
+    },
+    "dependencies": {
+        "async": "^2.5.0",
+        "bignum": "^0.12.5",
+        "body-parser": "^1.18.2",
+        "colors": "^1.1.2",
+        "compression": "^1.7.1",
+        "dateformat": "^2.2.0",
+        "dot": "^1.1.2",
+        "express": "^4.16.1",
+        "mysql": "^2.15.0",
+        "node-json-minify": "^1.0.0",
+        "node-watch": "^0.5.5",
+        "nonce": "^1.0.4",
+        "redis": "^2.7.1",
+        "request": "^2.83.0",
+        "stratum-pool": "git://github.com/Hdactech/stratum-pool.git"
+    },
+    "engines": {
+        "node": ">=8.1.4"
+    }
+}
