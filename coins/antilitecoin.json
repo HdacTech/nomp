@@ -1,0 +1,5 @@
+{
+    "name": "AntiLiteCoin",
+    "symbol": "ALTC",
+    "algorithm": "scrypt"
+}

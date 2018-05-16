@@ -1,0 +1,7 @@
+{
+    "name": "Vertcoin",
+    "symbol": "VTC",
+    "algorithm": "lyra2rev2",
+    "peerMagic": "fabfb5da",
+    "peerMagicTestnet": "76657274"
+}

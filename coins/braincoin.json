@@ -1,0 +1,6 @@
+{
+    "name": "Braincoin",
+    "symbol": "BRAIN",
+    "algorithm": "x11",
+    "mposDiffMultiplier": 256
+}
