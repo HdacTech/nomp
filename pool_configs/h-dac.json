@@ -8,6 +8,7 @@
         "hdac reward address": 1
     },
 
+    /* Not Supported. Do not use */ 
     "paymentProcessing": {
         "enabled": false,
         "paymentInterval": 20,
