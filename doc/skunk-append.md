@@ -27,7 +27,8 @@ coins/hdac.json 의 내용 중에 "algorithm" 값이 "skunk" 로 되어 있어�
 
 ### nomp 실행
 실행하기 전에 백업해두었던 파일 - config.json, pool_configs/h-dac.json - 을 복구합니다.
-실행 방법은 다음과 같습니다.
+
+복구 후, 실행 방법은 다음과 같습니다.
 ```bash
 node init.js
 ```
