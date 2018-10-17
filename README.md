@@ -397,7 +397,7 @@ The **`HDAC`** Pool Configuration defined in the pool_configs folder is as follo
 ##### 4. Server Start
 Into nomp folder
 ```
-Node init.js
+node init.js
 ```
 
 ## About ePoW And Stratum Pool
