@@ -8,7 +8,6 @@ The current nomp does not support skunk hash algorithm, so the installation of a
 *	pool_configs/h-dac.json
 
 ## How to install
-The setting method is as follow.
 ```bash
 git clone https://github.com/Hdactech/nomp.git
 cd nomp
