@@ -1,3 +1,37 @@
+Skunk Hash Algorithm addition
+=======================
+The skunk hash algorithm responding function has been added.
+
+The current nomp does not support skunk hash algorithm, so the installation of a new package is necessary. Since the current setting file is still operable, you can back-up the setting file. The setting files related to new algorithm are as follow.
+
+*	config.json
+*	pool_configs/h-dac.json
+
+## Setting Method
+The setting method is as follow.
+```bash
+git clone https://github.com/Hdactech/nomp.git
+cd nomp
+npm install
+```
+
+## Configuration Setting
+The value of “algorithm” in coins/hdac.json must be "skunk". The related part is as follow.
+```bash
+"name": "HDAC",
+"symbol": "DAC",
+"algorithm": "skunk"
+//"algorithm": "lyra2rev2"
+...
+```
+
+## Starting the nomp
+Restore the backup file - config.json, pool_configs/h-dac.json - before starting nomp.
+After restoring, the executing method is as follow.
+```bash
+node init.js
+```
+
 skunk 해시 알고리즘 추가
 =======================
 skunk 해시 알고리즘에 대응한 기능이 추가되었습니다.
