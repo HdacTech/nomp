@@ -7,7 +7,7 @@ The current nomp does not support skunk hash algorithm, so the installation of a
 *	config.json
 *	pool_configs/h-dac.json
 
-## Setting Method
+## How to install
 The setting method is as follow.
 ```bash
 git clone https://github.com/Hdactech/nomp.git
@@ -16,7 +16,7 @@ npm install
 ```
 
 ## Configuration Setting
-The value of “algorithm” in coins/hdac.json must be "skunk". The related part is as follow.
+The value of “algorithm” in coins/hdac.json must be "skunk".
 ```bash
 "name": "HDAC",
 "symbol": "DAC",
@@ -26,8 +26,9 @@ The value of “algorithm” in coins/hdac.json must be "skunk". The related par
 ```
 
 ## Starting the nomp
-Restore the backup file - config.json, pool_configs/h-dac.json - before starting nomp.
-After restoring, the executing method is as follow.
+Restore the backup files - config.json, pool_configs/h-dac.json - before starting nomp.
+
+After restoring, the executing command is as follow.
 ```bash
 node init.js
 ```
