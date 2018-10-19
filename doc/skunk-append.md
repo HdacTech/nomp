@@ -34,6 +34,8 @@ node init.js
 
 ### Settings for mining program
 It is necessary to change the algorithm settings of the mining program.
+
+in case of, ccminer (above v2.2)
 ```bash
 ccminer-x64.exe -a skunk -o stratum+tcp://<NOMP IP addr>:<port> -u <wallet address> -p x
 ```
@@ -76,7 +78,7 @@ node init.js
 ### mining 프로그램 옵션 변경
 mining 프로그램의 알고리즘 설정을 변경해줘야 합니다.
 
-ccminer의 경우, 다음과 같습니다.
+ccminer(버전 2.2 이상부터 지원합니다)의 경우, 다음과 같습니다. 
 ```bash
 ccminer-x64.exe -a skunk -o stratum+tcp://<NOMP IP addr>:<포트번호> -u <지갑주소> -p x
 ```
