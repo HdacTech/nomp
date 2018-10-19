@@ -42,6 +42,8 @@ Therefore, if nodeJs not installed through the existing nvm are already installe
 ```
 >curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 
+>source ~/.nvm/nvm.sh
+
 >nvm install 8.9.4
 
 >nvm use 8.9.4
