@@ -32,6 +32,12 @@ After restoring, the executing command is as follow.
 node init.js
 ```
 
+### Settings for mining program
+It is necessary to change the algorithm settings of the mining program.
+```bash
+ccminer-x64.exe -a skunk -o stratum+tcp://<NOMP IP addr>:<port> -u <wallet address> -p x
+```
+
 skunk 해시 알고리즘 추가
 =======================
 skunk 해시 알고리즘에 대응한 기능이 추가되었습니다.
@@ -66,3 +72,11 @@ coins/hdac.json 의 내용 중에 "algorithm" 값이 "skunk" 로 되어 있어�
 ```bash
 node init.js
 ```
+
+### mining 프로그램 옵션 변경
+mining 프로그램의 알고리즘 설정을 변경해줘야 합니다.
+ccminer의 경우,
+```bash
+ccminer-x64.exe -a skunk -o stratum+tcp://<NOMP IP addr>:<포트번호> -u <지갑주소> -p x
+```
+입니다.
