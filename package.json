@@ -46,7 +46,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.83.0",
-        "stratum-pool": "git://github.com/Hdactech/stratum-pool.git"
+        "stratum-pool": "git://github.com/Hdactech/stratum-pool.git#skunk"
     },
     "engines": {
         "node": ">=8.1.4"
