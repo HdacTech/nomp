@@ -75,8 +75,8 @@ node init.js
 
 ### mining 프로그램 옵션 변경
 mining 프로그램의 알고리즘 설정을 변경해줘야 합니다.
-ccminer의 경우,
+
+ccminer의 경우, 다음과 같습니다.
 ```bash
 ccminer-x64.exe -a skunk -o stratum+tcp://<NOMP IP addr>:<포트번호> -u <지갑주소> -p x
 ```
-입니다.
