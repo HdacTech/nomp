@@ -1,7 +1,8 @@
 {
     "name": "HDAC",
     "symbol": "DAC",
-    "algorithm": "lyra2rev2",
+    "algorithm": "skunk",
+    //"algorithm": "lyra2rev2",
     /**
      * @Hdac
      * Add the 'reward' key value for ePoW, a unique consensus algorithm of Hdac.
