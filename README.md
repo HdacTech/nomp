@@ -303,23 +303,12 @@ The **`HDAC`** Pool Configuration defined in the pool_configs folder is as follo
     "rewardRecipients": {
         "hdac reward address": 1
     },
-
-	"paymentProcessing": {
-        "enabled": true,
-
-        /* Every this many seconds get submitted blocks from redis, use daemon RPC to check
-           their confirmation status, if confirmed then get shares from redis that contributed
-           to block and send out payments. */
+    
+    /* Not Supported as security issue. Do not use */
+    "paymentProcessing": {
+        "enabled": false,
         "paymentInterval": 30,
-
-        /* Minimum number of coins that a miner must earn before sending payment. Typically,
-           a higher minimum means less transactions fees (you profit more) but miners see
-           payments less frequently (they dislike). Opposite for a lower minimum payment. */
         "minimumPayment": 0.01,
-
-        /* This daemon is used to send out payments. It MUST be for the daemon that owns the
-           configured 'address' that receives the block rewards, otherwise the daemon will not
-           be able to confirm blocks or send out payments. */
         "daemon": {
             "host": "127.0.0.1",
             "port": 19332,
